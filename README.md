@@ -47,14 +47,30 @@ where `a` is the lower limit, `b` is the upper limit and `c` is the mode.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-triangular-skewness
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-skewness@deno/mod.js';
+var skewness = require( '@stdlib/stats-base-dists-triangular-skewness' );
 ```
 
 #### skewness( a, b, c )
@@ -119,8 +135,8 @@ y = skewness( 0.0, -1.0, 0.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-skewness@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var skewness = require( '@stdlib/stats-base-dists-triangular-skewness' );
 
 var a;
 var b;
@@ -166,7 +182,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -222,6 +238,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-triangular-skewness/main/LICENSE
 
