@@ -32,10 +32,14 @@ The [skewness][skewness] for a [triangular][triangular-distribution] random vari
 
 <!-- <equation class="equation" label="eq:triangular_skewness" align="center" raw="\operatorname{skew}\left( X \right) = \frac{{\sqrt 2}(a\!+\!b\!-\!2c)(2a\!-\!b\!-\!c)(a\!-\!2b\!+\!c)}{5(a^{2}\!+\!b^{2}\!+\!c^{2}\!-\!ab\!-\!ac\!-\!bc)^{{\frac{3}{2}}}}" alt="Skewness for a triangular distribution."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{skew}\left( X \right) = \frac{{\sqrt 2}(a\!+\!b\!-\!2c)(2a\!-\!b\!-\!c)(a\!-\!2b\!+\!c)}{5(a^{2}\!+\!b^{2}\!+\!c^{2}\!-\!ab\!-\!ac\!-\!bc)^{{\frac{3}{2}}}}" data-equation="eq:triangular_skewness">
+```math
+\operatorname{skew}\left( X \right) = \frac{{\sqrt 2}(a\!+\!b\!-\!2c)(2a\!-\!b\!-\!c)(a\!-\!2b\!+\!c)}{5(a^{2}\!+\!b^{2}\!+\!c^{2}\!-\!ab\!-\!ac\!-\!bc)^{{\frac{3}{2}}}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{skew}\left( X \right) = \frac{{\sqrt 2}(a\!+\!b\!-\!2c)(2a\!-\!b\!-\!c)(a\!-\!2b\!+\!c)}{5(a^{2}\!+\!b^{2}\!+\!c^{2}\!-\!ab\!-\!ac\!-\!bc)^{{\frac{3}{2}}}}" data-equation="eq:triangular_skewness">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@556e0ebc42f54244079cecc91c0883bb6c442244/lib/node_modules/@stdlib/stats/base/dists/triangular/skewness/docs/img/equation_triangular_skewness.svg" alt="Skewness for a triangular distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -226,7 +230,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
