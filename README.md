@@ -62,14 +62,32 @@ where `a` is the lower limit, `b` is the upper limit and `c` is the mode.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-triangular-skewness
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-skewness@esm/index.mjs';
+var skewness = require( '@stdlib/stats-base-dists-triangular-skewness' );
 ```
 
 #### skewness( a, b, c )
@@ -133,14 +151,9 @@ y = skewness( 0.0, -1.0, 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-skewness@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var skewness = require( '@stdlib/stats-base-dists-triangular-skewness' );
 
 var a;
 var b;
@@ -155,10 +168,6 @@ for ( i = 0; i < 10; i++ ) {
     v = skewness( a, b, c );
     console.log( 'a: %d, b: %d, c: %d, skew(X;a,b,c): %d', a.toFixed( 4 ), b.toFixed( 4 ), c.toFixed( 4 ), v.toFixed( 4 ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -190,7 +199,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -220,8 +229,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-triangular-skewness.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-triangular-skewness
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-triangular-skewness/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-triangular-skewness?branch=main
