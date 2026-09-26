@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-25)
+## Unreleased (2026-09-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f9e32db`](https://github.com/stdlib-js/stdlib/commit/f9e32db734a4e7398f5ac4bc6c17da9c1ea27f92) - **test:** increase tolerance to account for compiler optimizations [(#15534)](https://github.com/stdlib-js/stdlib/pull/15534) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a592a8d`](https://github.com/stdlib-js/stdlib/commit/a592a8dbc71b01671516111d825cf3062fe0c55f) - **test:** migrate `stats/base/dists/triangular/skewness` to ULP-based assertions [(#15505)](https://github.com/stdlib-js/stdlib/pull/15505) _(by Devansh Patel)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Devansh Patel
 -   Philipp Burckhardt
 
